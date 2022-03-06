@@ -1,7 +1,8 @@
 # screengrab-video
 
 # to install packages
-## pip install -r requirements.txt
+
+    pip install -r requirements.txt
 
 
 # major functions
