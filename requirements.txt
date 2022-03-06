@@ -1,0 +1,5 @@
+opencv-python==4.5.5.62
+pyautogui==0.9.53
+pynput==1.7.6
+numpy==1.21.5
+moviepy==1.0.3
