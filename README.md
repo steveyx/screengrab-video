@@ -5,6 +5,7 @@
 
 
 # major functions
-## select a region to record screen activities
-## edit a video: trim, crop, format conversion
-###  supported converter (avi->mp4, mp4->git)
+1. select a region to record screen activities
+2. edit a video: trim, crop, format conversion
+   
+   supported converter (avi->mp4, mp4->git)
