@@ -153,7 +153,7 @@ def select_region_and_verify(capture_full_screen=False):
 
 
 if __name__ == "__main__":
-    """below is select to a region and record screen activities as a video"""
+    """below is to select a region and record screen activities as a video"""
     # selected_region = select_region_and_verify(capture_full_screen=False)
     # video_format = "avi"  # mp4 or avi
     # output_file = "data/Recording.avi"
@@ -180,5 +180,5 @@ if __name__ == "__main__":
                            out_format="gif", out_filename="data/test_recording.gif", fps=1)
 
     """below is to join a list of images to create gif picture"""
-    test_images = ["images/img_{}.png".format(i) for i in range(30)]
+    test_images = ["images/img_{}.png".format(i) for i in range(3, 30)]
     create_video_by_images(images=test_images, fps=4, video_format="gif", out_filename="data/joined_images.gif")
